@@ -55,28 +55,39 @@ Standardize text data to ensure consistency across the dataset.
 ## Data Analysis
 ### Answering Questions Using Data Analysis (Pandas)
 Answer specific questions about the Pokémon dataset using pandas. Some example questions include:
-1. What is the average HP of Pokémon by generation?
-2. Which type of Pokémon has the highest average attack?
-3. What is the distribution of Pokémon by their primary type?
-4. How many legendary Pokémon are there in each generation?
-5. What are the top 5 Pokémon with the highest defense?
-6. What is the correlation between different Pokémon stats?
-7. Which Pokémon have Mega Evolutions?
-8. How does the average speed of Pokémon vary by type?
-9. What is the relationship between a Pokémon's weight and its attack?
-10. Which Pokémon have the highest total stats in each generation?
+1. How many unique Pokemon are there in the dataset?
+2. What are the top 5 Pokemon with the highest attack stats?
+3. Which Pokemon has the lowest speed?
+4. What is the average HP of all Pokemon?
+5. How many legendary Pokemon are there?
+6. What is the average weight of Pokemon by primary type (Type_1)?
+7. How many Pokemon belong to more than one egg group?
+8. What is the total number of Pokemon in each generation?
+9. What percentage of Pokemon have mega evolutions?
+10. Which Pokemon has the highest total stats?
 
 ### Creating Visualizations (Matplotlib, Seaborn, etc.)
 Create visualizations to better understand the data and communicate insights. Some example visualizations include:
-1. Distribution of Pokémon Total Stats
-2. Average Stats by Generation
-3. Box Plot of Pokémon Stats by Type
-4. Scatter Plot of Weight vs. Attack
-5. Heatmap of Correlation Between Pokémon Stats
-6. Count Plot of Pokémon by Generation
-7. Bar Plot of Average Speed by Type
-8. Pie Chart of Legendary vs. Non-Legendary Pokémon
-9. Line Plot of Total Stats by Generation
+1. What is the distribution of Pokemon by primary type?
+2. Is there a correlation between HP and Defense? (weak correlation)
+3. Which body style is most common among Pokemon?
+4. Distribution of Total Stats
+5. Average Stats by Generation
+6. Distribution of HP by Type
+7. Count of Legendary vs. Non-Legendary Pokemon
+8. Average Weight by Type
+9.  Box Plot of Speed by Generation
+10. Scatter Plot of Attack vs. Defense
+    
+
+### Future Work
+
+In future iterations of this project, the following enhancements and analyses could be implemented:
+
+1. **Advanced Machine Learning Models:** Develop predictive models to classify Pokémon types or predict Pokémon stats based on other features.
+2. **Clustering Analysis:** Perform clustering to group similar Pokémon based on their attributes and characteristics.
+3. **Interactive Visualizations:** Use interactive visualization libraries like Plotly or Bokeh to create more engaging and dynamic visualizations.
+4. **Comparative Analysis:** Compare the Pokémon dataset with other related datasets, such as those from different games or regions.
 
 ## Conclusion
 This project provided a comprehensive analysis of the Pokémon dataset. We performed data cleaning, exploratory data analysis, and answered various questions through data analysis and visualization. The insights gained can help in understanding the characteristics and distribution of Pokémon across different generations and types.
